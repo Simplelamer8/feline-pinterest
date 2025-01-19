@@ -1,0 +1,15 @@
+.navbar
+{
+    display: flex;
+    padding: 0 16px;
+    background-color: #2196F3;
+    color: #FFFFFFB2;
+    font-family: 'roboto';
+    box-shadow: 0 5px 20px -10px black;
+}
+@media screen and (min-width: 1280px){
+    .navbar
+    {
+        padding: 0 64px;
+    }    
+}

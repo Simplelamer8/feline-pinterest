@@ -1,0 +1,30 @@
+.CatCard
+{
+    width: 180px;
+    height: 180px;
+    justify-self: center;
+    position: relative;
+    transition: all 0.4s;
+}
+.CatCard:hover
+{
+    box-shadow: 0 15px 20px -10px;
+    scale: 110%;
+}
+
+@media screen and (min-width: 768px){
+  .CatCard
+  {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 1280px){
+  .CatCard
+  {
+    width: 225px;
+    height: 225px;
+  }
+}
+
